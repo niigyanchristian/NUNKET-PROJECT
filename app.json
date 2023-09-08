@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Nunket",
+    "slug": "nunket",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/logo2.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./app/assets/nunket1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F3877"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/logo2.png",
+        "backgroundColor": "#0F3877"
+      },
+      "package": "com.onedon.Nunket"
+    },
+    "web": {
+      "favicon": "./app/assets/logo2.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5368b212-50ac-4763-bc50-553e59d416b8"
+      }
+    },
+    "owner": "onedon"
+  }
+}
